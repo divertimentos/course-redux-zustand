@@ -2,7 +2,11 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 
 const todoSlice = createSlice({
   name: "todo",
-  initialState: ["Fazer cafeé", "Estudar Redux"],
+  initialState: [
+    "Fazer aquele café sacrossanto",
+    "Estudar Redux",
+    "Dar aquele rolê soviético de Civic Si rebaixado",
+  ],
   reducers: {},
 });
 
