@@ -1,5 +1,13 @@
 # Curso de Redux + Zustand (Rocketseat)
 
+<!--toc:start-->
+
+- [Curso de Redux + Zustand (Rocketseat)](#curso-de-redux-zustand-rocketseat)
+- [Introdução](#introdução)
+  - [Arquitetura do Redux (AKA Flux)](#arquitetura-do-redux-aka-flux)
+  - [Store](#store)
+  <!--toc:end-->
+
 # Introdução
 
 - A diferença entre Redux e ContextAPI é que os dois são diferentes :shrug:
@@ -11,3 +19,8 @@
 - Action: avisa para o Redux que o usuário quer atualizar o estado
 - Reducer: divide o grande estadão em pequenos estadinhos dentro da store, para podermos manipular cada um separadamente. Mais de um reducer podem ouvir à mesma ação, o que significa que a relação ação + reducer não é de 1:1
 - Quando o reducer ouve a ação, aí sim ele dispara a atualização de estado e isso se reflete na UI.
+
+## Store
+
+- O reducer fica dentro da store, pois ele vai ser compartilhado com todos os componentes da aplicação
+- Isso significa que podemos ter, como dito antes, vários reducers, todos dentro dessa mesma store. Criamos esses reducers separados usando uma função do toolkit chamada `createSlice`.
