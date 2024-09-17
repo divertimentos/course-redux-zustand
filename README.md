@@ -1,4 +1,4 @@
-# Curso de Redux + Zustand (RocketSeat)
+# Curso de Redux + Zustand (Rocketseat)
 
 # Introdução
 
