@@ -28,4 +28,4 @@
 
 # Interface
 
-Os caras são muito zé biblioteca. Nos últimos dois dias eu acho que instalei mais bibliotecas do que nos últimos 2 anos de Printi. E eu não estou brincando.
+Os caras são muito zé biblioteca. Nos últimos dois dias eu acho que instalei mais bibliotecas do que nos últimos 2 anos de firma. E eu não estou brincando.
