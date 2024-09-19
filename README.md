@@ -7,6 +7,7 @@
   - [Arquitetura do Redux (AKA Flux)](#arquitetura-do-redux-aka-flux)
   - [Store](#store)
 - [Interface](#interface)
+- [De volta ao Redux](#de-volta-ao-redux)
 <!--toc:end-->
 
 # Introdução
@@ -29,3 +30,20 @@
 # Interface
 
 Os caras são muito zé biblioteca. Nos últimos dois dias eu acho que instalei mais bibliotecas do que nos últimos 2 anos de firma. E eu não estou brincando.
+Instalamos mais uma lib, agora para criar um collapsible na sidebar.
+
+Ok, aprendi uma coisa legal. No Tailwind é simples criar classe condicional. Para, por exemplo, inserir uma borda em uma div que a lib de collapse fica trocando dinamicamente de classe para indicar que o elemento está aberto ou fechado, podemos usar a seguinte sintaxe:
+
+```javaScript
+<Collapsible.Root className="data-[state=open]:border-4" />
+```
+
+No caso, a propriedade dinâmica do elemento da lib é `data-state=open` e `data-state=close`.
+
+E aí vem outra coisa legal que aprendi sobre Tailwind. Usando a classe `group`, você trata descendentes de um componentes como pertencentes a um grupo em comum. Isso porque aquele `data-state` é do `Root`, mas na verdade o que queremos estilizar é ícone (de uma outra lib rsrs) chamado `Chevron`. Então, adicionado o `group` no pai, basta adicionar ele como prefixo. Assim:
+
+```javaScript
+<ChevronDown className="group-data-[state=open]:rotate-180" />
+```
+
+# De volta ao Redux
