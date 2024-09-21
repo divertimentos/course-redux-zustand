@@ -47,3 +47,5 @@ E aí vem outra coisa legal que aprendi sobre Tailwind. Usando a classe `group`,
 ```
 
 # De volta ao Redux
+
+Os reducers pertencentes a cada slice são as actions.
