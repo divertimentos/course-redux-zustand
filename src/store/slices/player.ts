@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { useAppSelector } from "..";
 
-const playerSlice = createSlice({
+export const playerSlice = createSlice({
   name: "player",
   initialState: {
     course: {
@@ -88,6 +88,7 @@ const playerSlice = createSlice({
 });
 
 export const player = playerSlice.reducer;
+
 export const { play, next } = playerSlice.actions;
 
 export const useCurrentLesson = () => {
