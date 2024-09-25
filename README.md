@@ -1,5 +1,7 @@
 # Curso de Redux e Zustand (Rocketseat)
 
+![redux-app-screenshot](https://github.com/ggteixeira/course-redux-zustand-rocketseat/blob/main/media/redux.png)
+
 - A diferença entre Redux e ContextAPI é que os dois são diferentes :shrug:
 - O React tem três tipos de estado: local, global e server state. Local é aquele dentro do componente; global é aquele compartilhado pela aplicação inteira; server state são informações recebidas via API que salvamos em estados.
 - Hoje em dia, o Redux é utilizado apenas para estados globais. Antigamente, era usado para esses três propósitos.
