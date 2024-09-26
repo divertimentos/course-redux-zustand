@@ -3,7 +3,7 @@ import { Header } from "../components/Header";
 import { Video } from "../components/Video";
 import { Module } from "../components/Module";
 import { useAppDispatch, useAppSelector } from "../store";
-import { loadCourse, start, useCurrentLesson } from "../store/slices/player";
+import { loadCourse, useCurrentLesson } from "../store/slices/player";
 import { useEffect } from "react";
 
 export function Player() {
