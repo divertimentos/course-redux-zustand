@@ -30,7 +30,7 @@ export const useStore = create<PlayerState>((set, get) => {
     course: null,
     currentModuleIndex: 0,
     currentLessonIndex: 0,
-    isLoading: true,
+    isLoading: false,
 
     load: async () => {
       set({ isLoading: true });
