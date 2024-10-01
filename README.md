@@ -1,7 +1,5 @@
 # Curso de Redux e Zustand
 
-![redux-app-screenshot](https://github.com/ggteixeira/course-redux-zustand/blob/main/media/redux.png)
-![old](https://github.com/ggteixeira/course-redux-zustand/blob/main/media/redux.png)
 ![page-screenshot](https://github.com/divertimentos/course-redux-zustand/blob/main/media/page-screenshot.png)
 
 - A diferença entre Redux e ContextAPI é que os dois são diferentes :shrug:
